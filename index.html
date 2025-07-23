@@ -3,314 +3,325 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Time</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Alex Carter - Web Developer & Designer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container mt-3 mb-3">
-            <img class="navbar-brand" src="./images/logo.png">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container mt-1 mb-1">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="Alex Carter Logo" class="logo-img">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse vfg" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-lg-0">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Service</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Pages
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Projects
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">404 Pages</a></li>
-                            <li><a class="dropdown-item" href="#">Gallery</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            BLOGS
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Blog Full</a></li>
-                            <li><a class="dropdown-item" href="#">Blog Left sidebar</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Blog Right sidebar</a></li>
+                            <li><a class="dropdown-item" href="#works">Web Development</a></li>
+                            <li><a class="dropdown-item" href="#works">UI/UX Design</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
-
                 </ul>
             </div>
         </div>
     </nav>
-    <div class=" ccc">
-        <div>
-            <h1 class="dfg">
-                HI, MY NAME IS UMAR & I AM A<br>
-                DEVELOPER
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1 class="animate__animated animate__fadeInDown">
+                HI, I'M ALEX CARTER<br>
+                <span class="text-gradient">WEB DEVELOPER & DESIGNER</span>
             </h1>
-            <p class="dfg1">
-                With 10 years experience, I've occupied many roles including digital design director,<br>
-                web designer and developer. This site showcases some of my work.<br>
-                <a class="frt" href="#">View Works</a>
+            <p class="animate__animated animate__fadeIn animate__delay-1s">
+                I create beautiful, functional websites that help businesses grow.<br>
+                With 8 years of experience in both design and development, I bring ideas to life.
             </p>
+            <a href="#works" class="btn btn-primary animate__animated animate__fadeInUp animate__delay-1s">View My Work</a>
         </div>
-    </div>
-    <div class="container mt-3 mb-3 p-2 ml-3 mr-3">
-        <div class="row">
-            <div class="col-md-6">
-                <div>
-                    <h2 class="mt-5 mb-3 p-3">ABOUT ME</h2>
-                    <p class="para">Hello, I'm a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a
-                        master
-                        degree of Web Design from the World University.And scrambled it to make a type specimen book. It
-                        has survived not only five centuries<br><br>
+        <div class="scroll-down animate__animated animate__bounce animate__infinite animate__delay-2s">
+            <i class="ri-arrow-down-s-line"></i>
+        </div>
+    </header>
 
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum
-                        repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat.
-                        Temporibus, vero.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div>
-                    <img src="./images/about.jpg">
-                </div>
-            </div>
-        </div>
-    </div>
-    <section id="latest">
+    <!-- About Section -->
+    <section id="about" class="about-section" data-aos="fade-up">
         <div class="container">
-            <div>
-                <h3 class="work">Latest Works</h3>
-                <p class="works">Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna.
-                    Nulla sit amet
-                    est. Aenean posuere<br>
-                    tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div>
-                        <img src="./images/item-1.jpg" width="100%">
-                        <figcaption>
-                            <a href="#">Dew Drop</a>
-                            <p>Redesigne UI Concept</p>
-                        </figcaption>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div>
-                        <img src="./images/item-2.jpg" width="100%">
-                        <figcaption>
-                            <a href="#">Bottle Mockup</a>
-                            <p>Lorem ipsum dolor sit.</p>
-                        </figcaption>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div>
-                        <img src="./images/item-3.jpg" width="100%">
-                        <figcaption>
-                            <a href="#">Table Design</a>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </figcaption>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-4">
-                    <div>
-                        <img src="./images/item-4.jpg" width="100%">
-                        <figcaption>
-                            <a href="#">Make Up elements</a>
-                            <p>Lorem ipsum dolor.</p>
-                        </figcaption>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div>
-                        <img src="./images/item-5.jpg" width="100%">
-                        <figcaption>
-                            <a href="#">Shoping Bag Concept</a>
-                            <p>Lorem ipsum dolor.</p>
-                        </figcaption>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div>
-                        <img src="./images/item-6.jpg" width="100%">
-                        <figcaption>
-                            <a href="#">Caramel Bottle</a>
-                            <p>Lorem ipsum dolor.</p>
-                        </figcaption>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <section id="form">
-        <div class="container mt-5 mb-5 p-3">
-            <div>
-                <h4 class="form">Offer From Me</h4>
-                <p class="forms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,<br>
-                    quasi dolores numquam dolor vero ex, tempora commodi repellendus quod laborum.</p>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="d-flex text">
-                            <div class="icon">
-                                <i class="ri-flask-line .bg-info"></i>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h2>ABOUT ME</h2>
+                        <p>I'm a full-stack developer specializing in creating exceptional digital experiences. Based in Seattle, I've worked with startups and Fortune 500 companies to build web applications that users love.</p>
+                        
+                        <p>My journey began with a Computer Science degree from Stanford University, followed by roles at Google and several successful tech startups. I combine technical expertise with creative design thinking to deliver complete solutions.</p>
+                        
+                        <div class="skills">
+                            <div class="skill-item">
+                                <h6>Frontend Development <span>95%</span></h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 95%"></div>
+                                </div>
                             </div>
-                            <div>
-                                <h5>
-                                    Media heading</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+                            <div class="skill-item">
+                                <h6>UI/UX Design <span>90%</span></h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h6>Backend Development <span>85%</span></h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                                </div>
                             </div>
                         </div>
-
-                    </div>
-                    <div class="col-md-4">
-                        <div class="d-flex text">
-                            <div class="icon">
-                                <i class="ri-lightbulb-line"></i>
-                            </div>
-                            <div>
-                                <h5>
-
-                                    Well documented</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-4">
-                        <div class="d-flex text">
-                            <div class="icon">
-                                <i class="ri-lightbulb-line"></i>
-                            </div>
-                            <div>
-                                <h5>
-
-                                    Well documented.</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
-                <br><br>
-
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="d-flex text">
-                            <div class="icon">
-                                <i class="ri-lightbulb-line"></i>
-                            </div>
-                            <div>
-                                <h5>
-
-                                    Free updates</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-4">
-                        <div class="d-flex text">
-                            <div class="icon">
-                                <i class="ri-keyboard-line"></i>
-                            </div>
-                            <div>
-                                <h5>
-
-                                    Solid Support</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-4">
-                        <div class="d-flex text">
-                            <div class="icon">
-                                <i class="ri-barcode-line"></i>
-                            </div>
-                            <div>
-                                <h5>
-
-                                    Simple Installation</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                            </div>
-                        </div>
-
+                <div class="col-lg-6">
+                    <div class="about-image" data-aos="zoom-in" data-aos-delay="300">
+                        <img src="./images/about.jpg" alt="Alex Carter working" class="img-fluid rounded">
                     </div>
                 </div>
-
-
             </div>
         </div>
     </section>
-    <footer>
-        <section id="footer">
-            <div class="container">
-                <div>
-                    <h4 class="cont">SO WHAT YOU THINK ?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>
-                        possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.
 
-                    </p>
-                    <a class="contact" href="#">CONTACT WITH MES</a>
+    <!-- Works Section -->
+    <section id="works" class="works-section" data-aos="fade-up">
+        <div class="container">
+            <div class="section-header">
+                <h3>Featured Projects</h3>
+                <p>Here are some of my recent projects that showcase my skills in web development and design.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="work-item">
+                        <div class="work-img">
+                            <img src="./images/item-1.jpg" alt="E-commerce Platform" class="img-fluid">
+                            <div class="work-overlay">
+                                <div class="work-content">
+                                    <h5>NovaShop</h5>
+                                    <p>E-commerce Platform</p>
+                                    <a href="#" class="work-link"><i class="ri-external-link-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="work-item">
+                        <div class="work-img">
+                            <img src="./images/item-2.jpg" alt="Health App" class="img-fluid">
+                            <div class="work-overlay">
+                                <div class="work-content">
+                                    <h5>VitaTrack</h5>
+                                    <p>Health & Wellness App</p>
+                                    <a href="#" class="work-link"><i class="ri-external-link-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="work-item">
+                        <div class="work-img">
+                            <img src="./images/item-3.jpg" alt="Finance Dashboard" class="img-fluid">
+                            <div class="work-overlay">
+                                <div class="work-content">
+                                    <h5>FinDash</h5>
+                                    <p>Financial Dashboard</p>
+                                    <a href="#" class="work-link"><i class="ri-external-link-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="work-item">
+                        <div class="work-img">
+                            <img src="./images/item-4.jpg" alt="Travel Website" class="img-fluid">
+                            <div class="work-overlay">
+                                <div class="work-content">
+                                    <h5>Wanderly</h5>
+                                    <p>Travel Booking Site</p>
+                                    <a href="#" class="work-link"><i class="ri-external-link-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="work-item">
+                        <div class="work-img">
+                            <img src="./images/item-5.jpg" alt="Education Platform" class="img-fluid">
+                            <div class="work-overlay">
+                                <div class="work-content">
+                                    <h5>EduConnect</h5>
+                                    <p>Online Learning Platform</p>
+                                    <a href="#" class="work-link"><i class="ri-external-link-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="work-item">
+                        <div class="work-img">
+                            <img src="./images/item-6.jpg" alt="Restaurant App" class="img-fluid">
+                            <div class="work-overlay">
+                                <div class="work-content">
+                                    <h5>FoodieFinder</h5>
+                                    <p>Restaurant Discovery App</p>
+                                    <a href="#" class="work-link"><i class="ri-external-link-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section" data-aos="fade-up">
+        <div class="container">
+            <div class="section-header">
+                <h4>My Services</h4>
+                <p>I offer comprehensive web solutions tailored to your business needs.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="ri-code-s-slash-line"></i>
+                        </div>
+                        <div class="service-content">
+                            <h5>Web Development</h5>
+                            <p>Custom websites and web applications built with modern technologies like React, Vue.js, and Node.js for optimal performance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="ri-palette-line"></i>
+                        </div>
+                        <div class="service-content">
+                            <h5>UI/UX Design</h5>
+                            <p>Beautiful, intuitive interfaces designed to enhance user experience and drive engagement with your product.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="ri-smartphone-line"></i>
+                        </div>
+                        <div class="service-content">
+                            <h5>Mobile Development</h5>
+                            <p>Cross-platform mobile applications that work seamlessly on both iOS and Android devices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="ri-search-line"></i>
+                        </div>
+                        <div class="service-content">
+                            <h5>SEO Optimization</h5>
+                            <p>Comprehensive SEO strategies to improve your website's visibility and search engine rankings.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="ri-cloud-line"></i>
+                        </div>
+                        <div class="service-content">
+                            <h5>Cloud Solutions</h5>
+                            <p>Scalable cloud infrastructure setup and migration services for businesses of all sizes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="ri-bar-chart-line"></i>
+                        </div>
+                        <div class="service-content">
+                            <h5>Performance Optimization</h5>
+                            <p>Speed optimization services to ensure your website loads quickly and performs well.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section id="contact" class="contact-section" data-aos="fade-up">
+        <div class="container text-center">
+            <h4>READY TO START YOUR PROJECT?</h4>
+            <p>I'm currently accepting new clients and would love to hear about your project. Let's create something amazing together.</p>
+            <a href="mailto:alex@example.com" class="btn btn-light">GET IN TOUCH</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    <p>&copy; 2023 Alex Carter. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><i class="ri-twitter-fill"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+                    <a href="#" aria-label="Dribbble"><i class="ri-dribbble-line"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
-    <div class="container">
-        <div class="main">
-            <div>
-                <p>Copyright: 2015 . Design and Developed by Umar Farooq</p>
-            </div>
-            <div class="logo">
-                    <div>
-                        <a href="#"><i class="ri-facebook-fill"></i></a>
-                    </div>
-                    <div>
-                        <a href="#"><i class="ri-twitter-fill"></i></a>
-                    </div>
-                    <div>
-                        <a href="#"><i class="ri-linkedin-box-fill"></i></i></a>
-                    </div>
-                    <div>
-                        <a href="#"><i class="ri-google-fill"></i></a>
-                    </div>
-            </div>
-        </div>
-    </div>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop"><i class="ri-arrow-up-line"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
 </body>
 </html>
